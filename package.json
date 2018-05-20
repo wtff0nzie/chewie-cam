@@ -10,9 +10,10 @@
 	},
 	"dependencies": {
 		"cuid": "2.1.1",
-		"formidable": "^1.1.1",
+		"formidable": "1.2.1",
 		"fs-extra": "3.0.0",
 		"jsonwebtoken": "8.1.0",
+		"node-watch": "0.5.8",
 		"request": "^2.83.0",
 		"shelljs": "0.8.2",
 		"simpl3s": "^2.1.91"
