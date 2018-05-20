@@ -93,6 +93,7 @@
         .temp,
         .lastUpdate{
             color:#fff;
+            font-size:2rem;
             position:fixed;
             right:20px;
             text-shadow:1px 1px 2px #000;
@@ -101,15 +102,19 @@
 
         .temp{
             bottom:20px;
-            font-size:2rem;
+            font-size:4rem;
             top:auto
+        }
+        .temp sub{
+            font-size:2rem;
+            top:-10px
         }
     </style>
 </head>
 <body>
     <main class="fecklet js-mail" style="background-image:url(fecklet.jpg"></main>
     <aside class="lastUpdate js-lastUpdate">21/03/2018 12:33</aside>
-    <aside class="temp js-temp">28<sub>deg</sub></aside>
+    <aside class="temp js-temp">28<sup>deg</sup></aside>
     <script async src="fecklet.js"></script>
 </body>
 </html>
