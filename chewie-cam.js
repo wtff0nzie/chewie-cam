@@ -6,7 +6,7 @@ const takePic = () => {
     counter++;
     console.log('Cliicckkkkkk...');
 
-    shell.exec('sudo raspistill -t 2000 -o /home/pi/work/chewie-cam/www/image-test-' + counter + '.jpg');
+    shell.exec('sudo raspistill -t 2000 -o /home/pi/work/chewie-cam/www/fecklet.jpg');
 };
 
 
