@@ -11,5 +11,5 @@ const takePic = () => {
 
 
 if (!process.env.server) {
-    setInterval(takePic, 10 * 1000);
+    setInterval(takePic, 30 * 1000);
 }

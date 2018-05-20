@@ -89,9 +89,27 @@
             top:0;
             width:100vw
         }
+
+        .temp,
+        .lastUpdate{
+            color:#fff;
+            position:fixed;
+            right:20px;
+            text-shadow:1px 1px 2px #000;
+            top:20px;
+        }
+
+        .temp{
+            bottom:20px;
+            font-size:2rem;
+            top:auto
+        }
     </style>
 </head>
 <body>
     <main class="fecklet js-mail" style="background-image:url(fecklet.jpg"></main>
+    <aside class="lastUpdate js-lastUpdate">21/03/2018 12:33</aside>
+    <aside class="temp js-temp">28<sub>deg</sub></aside>
+    <script async src="fecklet.js"></script>
 </body>
 </html>
