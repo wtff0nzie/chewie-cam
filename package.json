@@ -14,6 +14,7 @@
 		"fs-extra": "3.0.0",
 		"jsonwebtoken": "8.1.0",
 		"request": "^2.83.0",
+		"shelljs": "0.8.2",
 		"simpl3s": "^2.1.91"
 	}
 }
